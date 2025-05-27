@@ -447,27 +447,28 @@
       @media (max-width: 480px) {
         .poster {
           height: 100%;
+          width: 100%;
         }
 
         .photo-circle {
           width: 120px;
           height: 120px;
           border-width: 3px;
-          margin-bottom: 20px;
+          margin-bottom: 2px;
         }
 
         .main-text {
-          font-size: 20px;
-          margin-bottom: 20px;
+          font-size: 17px;
+          margin-bottom: 5px;
         }
 
         .event-title {
-          font-size: 28px;
+          font-size: 22px;
         }
 
         .choir-badge {
-          padding: 8px 20px;
-          margin-bottom: 20px;
+          padding: 4px 10px;
+          margin-bottom: 8px;
         }
 
         .choir-name {
@@ -478,15 +479,18 @@
           font-size: 14px;
           margin-bottom: 10px;
         }
+        .theme-box{
+          display: none;
+        }
 
         .theme-section {
           flex-direction: column;
-          gap: 15px;
-          margin-bottom: 20px;
+          gap: 2px;
+          margin-bottom: 2px;
         }
 
         .ibihe-text {
-          font-size: 28px;
+          font-size: 25px;
         }
 
         .album-text {
@@ -494,11 +498,11 @@
         }
 
         .date-text {
-          font-size: 20px;
+          font-size: 15px;
         }
 
         .time-info {
-          font-size: 16px;
+          font-size: 13px;
         }
 
         .upload-area {
@@ -507,6 +511,12 @@
 
         .upload-text {
           font-size: 16px;
+        }
+        .location1{
+          display: none;
+        }
+        .follow{
+          display: none;
         }
       } 
     </style>
@@ -565,7 +575,7 @@
 
               <div class="location-time">
                 <div class="location">
-                  <span style="color: #ffd700"
+                  <span class="location1" style="color: #ffd700"
                     ><svg
                       xmlns="http://www.w3.org/2000/svg"
                       height="24px"
@@ -587,7 +597,7 @@
 
               <div class="contact-section">
                 <div class="social-info">
-                  <span>Follow Us:</span>
+                  <span class="follow">Follow Us:</span>
                   <span>📷 📱 🎵 Blessing key choir</span>
                   <span>📧 blessingkeychoircepines@gmail.com</span>
                 </div>

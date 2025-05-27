@@ -401,7 +401,8 @@
 
       @media (max-width: 768px) {
         .poster {
-          height: 800px;
+          z-index: 1;
+          height: 100%;
         }
 
         .event-title {
@@ -445,7 +446,7 @@
 
       @media (max-width: 480px) {
         .poster {
-          height: 750px;
+          height: 100%;
         }
 
         .photo-circle {
@@ -501,13 +502,13 @@
         }
 
         .upload-area {
-          padding: 30px 20px;
+          padding: 30px 20px; 
         }
 
         .upload-text {
           font-size: 16px;
         }
-      }
+      } 
     </style>
   </head>
   <body>
@@ -550,7 +551,7 @@
                 THEME<br />
                 Abeso 3:20
               </div>
-              <div>
+              <div class="row">
                 <div class="ibihe-text">IBIHE</div>
                 <div class="album-text">Album Launch</div>
               </div>
